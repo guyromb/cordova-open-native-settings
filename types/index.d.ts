@@ -4,15 +4,15 @@ interface CordovaPlugins {
 
 interface NativeSettingsPlugin {
   open(
-    setting: SettingOption | [SettingOption, boolean],
+    setting: SettingsOption | [SettingsOption, boolean],
     onsucess?: (result: string) => void,
     onfail?: (error: string) => void,
   ): void;
 }
 
-type SettingOption = SettingOptionAndroid | SettingOptionIOS;
+type SettingsOption = SettingsOptionAndroid | SettingsOptionIOS;
 
-type SettingOptionAndroid =
+type SettingsOptionAndroid =
   | 'accessibility'
   | 'account'
   | 'airplane_mode'
@@ -59,7 +59,7 @@ type SettingOptionAndroid =
   | 'wifi'
   | 'wireless';
 
-type SettingOptionIOS =
+type SettingsOptionIOS =
   | 'about'
   | 'accessibility'
   | 'account'
