@@ -103,6 +103,8 @@ Setting constant | Description
 
 ## Settings Options (iOS)
 
+[List of available options](https://github.com/FifiTheBulldog/ios-settings-urls)
+
 Setting constant | Description
 -----------------|------------
 "about" | Settings > General > About
