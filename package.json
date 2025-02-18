@@ -1,6 +1,6 @@
 {
   "name": "cordova-open-native-settings",
-  "version": "1.5.5",
+  "version": "1.5.6",
   "description": "Native settings opener for Cordova",
   "cordova": {
     "id": "cordova-open-native-settings",
